@@ -1,5 +1,8 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 print "heloo gremo se FIZZBUZZ"
-izbranoSt=int(raw_input("Vnesi stevilo:  "))
+izbranoSt=int(raw_input("Vnesi število:  "))
 
 for i in range(izbranoSt):
     if  ((i+1) % 15) == 0:
